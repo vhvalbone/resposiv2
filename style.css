@@ -1,0 +1,22 @@
+body, html {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: #5799d6;
+  }
+  
+  .wrapper > section {
+    background-color: #ffc000;
+    border-radius: 50%; 
+    width: 50vmin; 
+    height: 50vmin;
+  }
